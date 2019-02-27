@@ -1,3 +1,4 @@
+print("6666666")
 from django.forms import model_to_dict
 from django.http import HttpResponse, HttpResponseNotAllowed, JsonResponse, QueryDict
 from django.shortcuts import render
