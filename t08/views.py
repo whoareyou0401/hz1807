@@ -139,8 +139,7 @@ class BookApi(View):
 
 class HelloTemplateView(TemplateView):
     template_name = "html_one.html"
-    # def get(self, request, *args, **kwargs):
-    #     pass
+
 
 class MyListView(ListView):
     # model = Book

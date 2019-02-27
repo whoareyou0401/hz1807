@@ -35,5 +35,6 @@ class DaDaAdminSite(admin.AdminSite):
     site_url = "http://www.baidu.com"
 
 # admin.site.register(Book, BookAdmin)
+# admin.site.register(Book, BookAdmin)
 site = DaDaAdminSite()
 site.register(Book, BookAdmin)
